@@ -1,5 +1,8 @@
 body{
-    background-color: rgb(61, 55, 55);
+    background-image: url( images/mine.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
   .container {
      margin-left: auto;
