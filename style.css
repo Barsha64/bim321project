@@ -16,13 +16,23 @@ body{
 
 nav {
     background-color: rgba(0, 0, 0, 0.253);
-    height:50px
-    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    text-align: center; 
+    padding-top: 14px;
+    padding-bottom: 14px;
+   
 }
 
 main {
-        height:70px
+        height: 70px
         }
+
+        
+footer{
+    background-color: greenyellow;
+    height:40px
+}
 
 
 h1 {
@@ -42,12 +52,10 @@ p {
 a { 
     font-size: 50px;
     color: white;
+    text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    text-align: right;
+    
 }
 
 
-footer{
-    background-color: greenyellow;
-    height:40px
-}
+
