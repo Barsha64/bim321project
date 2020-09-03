@@ -16,8 +16,6 @@ body{
 
 nav {
     background-color: rgba(0, 0, 0, 0.253);
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 15px;
     text-align: center; 
     padding-top: 14px;
     padding-bottom: 14px;
@@ -54,8 +52,15 @@ a {
     color: white;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    
 }
+
+nav a {
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 
 
 
