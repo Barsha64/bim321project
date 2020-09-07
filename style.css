@@ -85,30 +85,6 @@ button:hover { /* styles for button while hover */
     color:rgb(243, 138, 18);
 }
 
-#buttonScroll { /* styles for scroll to top button *//*
-    background-color: lightgray;
-    color: black;
-    padding: 7px 14px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 25px;
-    color: #38362c;
-    cursor: pointer;
-    transition-duration: 0.4s;
-    position: fixed;
-    bottom: 20px;
-    right: 30px;
-    z-index: 99;
-    border: 1px solid #686350;
-    border-radius: 4px;
-}
-#buttonScroll:hover { /* styles for scroll to top button while hover 
-    background-color: rgb(243, 138, 18);
-    color: white;
-    font-size: 30px;*/
-}
-
 footer { /* styles for footer section */
     position: absolute; 
     top:95%;
