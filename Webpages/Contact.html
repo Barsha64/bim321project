@@ -5,10 +5,10 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Contact</title>
    <link rel="stylesheet" href="../style.css">
-   <link href="" rel="stylesheet">
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-   <style> 
-    body {
+   
+     <style> 
+     body {
      background: url(../images/background.jpg);
      background-size: cover;
      background-repeat: no-repeat;
@@ -16,103 +16,59 @@
      background-attachment: fixed;
    }
    
-   .layout {
-       border: 3px double #413d31;
-       border-radius: 7px;
-       margin: 27vh;
-       margin-bottom: 15vh;
-       background-color: #c0c0ad;
+   h1{
+     text-align: center;
+     padding-top:50px ;
+       
    }
-   .space1st {
-       margin: 14vh 145px 70px;
-   }
-   .space2nd {
-       margin: 40px 100px;
-       text-align: justify;
-   }
+  
    .contactform-text{
-       display: block;
-       width: 100%;
-       box-sizing: border-box;
-       margin:18px 0;
+       display: inline-block;
+       width: 65%;       
+       margin:10px 0px;
        padding: 22px 40px;
-       background: rgb(122, 119, 107)1;
-       transition: 0.5s;
+       background: rgb(122, 119, 107)1;       
    }
 
    textarea.contactform-text{
-       resize: none;
-       height:100px;
-       color: blanchedalmond;
+       height:75px;
+       color: black;
    }
 
-   .contactform-btn{
-       float:right;
-       border:0;
-       padding: 10px 40px;
-       cursor:pointer;
-       transition: 0.5s;
+   .contactform-btn{       
+        position: fixed; 
+        top:74%;
+        left:75%;   
+        padding: 10px 40px;      
    }
-
-   .contactform-btn:hover{
-       background:rgb(243, 138, 18) ;
-   }
-
-   .button{
-    position: absolute; 
-    top:141%;
-    left:50%;
-    transform: translate(-50%,-50%);
-    display: flex;
-   }
-
-   .foot{
-    position: absolute; 
-    top:150%;
-    left:50%;
-    transform: translate(-50%,-50%);
-    display: flex;
-   }
-  
-</style>
+    </style>
 </head>   
 <body>
 <header> 
    <div class="container"> 
         <nav>
-           <ul>
              <li><a href="../index.html">Home</a></li>
              <li><a href="../Webpages/About.html">About</a></li>
              <li><a href="../Webpages/Skills.html">Skills</a></li>
              <li class="active"><a href="../Webpages/Contact.html">Contact</a></li>
-           </ul>
       </nav>  
-  </div>          
-  <div class="layout">
-   <div class="space1st">
-       <h1 style="text-align: center; font-size: 40px; color: black;">Contact Me</h1>
-       <br><br><br><br>
-       
-       <form class="contactform" action="../Webpages/Contact.html">
-        <p class="space2nd">
-          <input type="text" class="contactform-text" placeholder="Your Name">
-          <input type="email" class="contactform-text" placeholder="Your Email">
-          <input type="text" class="contactform-text" placeholder="Queries">
-          <textarea class="contactform-text" placeholder="Your Message"></textarea>
-          <input type="submit" class="contactform-btn" value="SEND">        
-        </p>
-        <div class="space2nd" style="margin-bottom: 100px;"><button class="button">Send</button></div>
-    </form>
-   </div>
-</div>
-   <button class="button" onclick="window.location.href='About.html'">ABOUT ME</button>  
-   </header>
-    <footer class= "foot">
-     <a href="https://www.facebook.com/barsha.manandhar/"style="color:rgb(243, 138, 18); margin: 25px; font-size: 30px;"><i class="fa fa-facebook"></i></a>
-     <a href="https://www.instagram.com/barsha.manandhar.14/"style="color:rgb(243, 138, 18); margin: 25px; font-size: 30px;"><i class="fa fa-instagram"></i></a>
-     <a href="https://www.twitter.com/barsha.manandhar.14/"style="color:rgb(243, 138, 18); margin: 25px; font-size: 30px;"><i class="fa fa-twitter"></i></a>
-     <a href="https://www.linkedin.com/barsha.manandhar.14/"style="color:rgb(243, 138, 18); margin: 25px; font-size: 30px;"><i class="fa fa-linkedin"></i></a>
-     <p1 style="margin-bottom: 10px; font-size: 15px;">Copyright © 2020 Barsha Manandhar</p1>
+    </div>     
+
+        <h1>Contact Me</h1>    
+        <input type="text" class="contactform-text" placeholder="Your Name">
+        <input type="email" class="contactform-text" placeholder="Your Email">
+        <input type="text" class="contactform-text" placeholder="Queries">
+        <textarea class="contactform-text" placeholder="Your Message"></textarea>
+        <input type="submit" class="contactform-btn" value="SEND">      
+        <a class="click" href="About.html">ABOUT ME</a> 
+</header>
+
+    <footer>
+        <a href="https://www.facebook.com/barsha.manandhar/"><i class="fa fa-facebook"></i></a>
+        <a href="https://www.instagram.com/barsha.manandhar.14/"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.twitter.com/barsha.manandhar.14/"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.linkedin.com/barsha.manandhar.14/"><i class="fa fa-linkedin"></i></a>
+        <p1>Copyright @ 2020 Barsha Manandhar</p1>
    </footer>   
 </body>
 </html>

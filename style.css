@@ -1,104 +1,88 @@
 
-*{ 
+*{ /* to position webpage for text design*/
     margin:0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     user-select: none;
 }
 
-body{ /* background image of homepage*/
+body{ /* backgroung image positioning */
     background-image: url( images/mine.JPG);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    background-attachment: fixed;
-    scroll-behavior: smooth;
-    
+    background-attachment: fixed;      
 }
   .container { /* style for header section */
-     margin-left: auto;
-     margin-right: auto;
-     position: fixed;
+     margin: auto;
      width: 100%;
-     top:0;
   }
 
-  ul{ /* style for nav bar position*/
+  nav{ /* style for nav bar position*/
       float: right;
-      list-style-type: none;
   }
 
-  ul li{ /* style for nav bar*/
+  nav li{ /* style for nav bar and position*/
       display: inline-block;
       padding-top: 35px;      
   }
 
-  ul li a{ /* style for nav elements*/
-      text-decoration: none;
+  nav li a{ /* style for nav elements*/
       color:rgb(59, 31, 5);
       padding: 5px 20px;
       border: 1px solid rgba(255, 255, 255, 0.212);
   }
 
-  ul li a:hover{ /* style for hovering in nav bar*/
-      background-color: whitesmoke;
+  nav li a:hover{ /* style for hovering in nav bar*/
+      background-color: white;
       color:rgb(243, 138, 18);
   }
 
-  ul li.active a{ /*style for active page color display in nav*/
+  nav li.active a{ /*style for active page color display on nav bar*/
       background-color: white;
       color:rgb(243, 138, 18);
  }
 
   main { /*style for text position*/
-      position: absolute; 
-      top:70%;
-      left:50%;
-      transform: translate(-50%,-50%);
+      position: fixed;      
+      top:60%;
+      left:35%;      
+      color:rgb(243, 138, 18);
+  }
+  
+p { /*font size for paragraph*/
+    font-size: 22px; 
   }
 
-  h1 {
+.click { /* style for about me button for position and display*/
+    position: fixed; 
+    top:75%;
+    left:45%;
     color:rgb(243, 138, 18);
-
+    display: inline-block;    
+    padding: 5px 20px;
+    border: 1px solid rgba(255, 255, 255, 0.212); 
+    background-color: white;
+    
 }
 
-p {
-    font-size: 22px;
-    color:rgb(243, 138, 18);
+footer { /* styles for footer */
+    position: fixed; 
+    top:85%;
+    left:40%; 
+    color:rgb(243, 138, 18);             
+ }
 
-  }
-
-button { /* style for button*/
-    position: absolute; 
-    top:80%;
-    left:50%;
-    transform: translate(-50%,-50%);
-    border: 1px solid white;
-    padding: 7px 14px;
-    text-decoration: none;
-    color:rgb(243, 138, 18);
-    display: inline-block;
-    cursor: pointer;
-    transition-duration: 0.4s;
-}
-button:hover { /* styles for btn hover */
-    background-color: whitesmoke;
-    color:rgb(243, 138, 18);
-}
-
-.footer { /* styles for footer */
-    position: absolute; 
-    top:95%;
-    left:50%;
-    transform: translate(-50%,-50%);
-    display: flex;
+ footer a{   /* design for footer icon display*/
+    color:rgb(243, 138, 18); 
+    margin: 25px; 
+    font-size: 30px   
  }
  
  footer p1{ /*style for footer paragraph*/
-    color:rgb(243, 138, 18);
-    position: absolute; 
-    top:97%;
-    
+    position: fixed; 
+    top:93%;
+    left:41%;    
  }
  
 
