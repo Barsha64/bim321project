@@ -51,7 +51,7 @@ body{ /* backgroung image positioning */
   }
   
 p { /*font size for paragraph*/
-    font-size: 22px; 
+    font-size: 5vw; 
   }
 
 .click { /* style for about me button for position and display*/
