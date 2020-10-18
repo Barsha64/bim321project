@@ -14,7 +14,7 @@ body{ /* backgroung image positioning */
     background-attachment: fixed;      
 }
   .container { /* style for header section */
-     margin: auto;
+     margin: auto;     
      width: 100%;
   }
 
@@ -50,10 +50,6 @@ body{ /* backgroung image positioning */
       color:rgb(243, 138, 18);
   }
   
-p { /*font size for paragraph*/
-    font-size: 5vw; 
-  }
-
 .click { /* style for about me button for position and display*/
     position: fixed; 
     top:75%;
